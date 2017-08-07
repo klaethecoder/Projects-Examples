@@ -1,0 +1,37 @@
+
+	div#box1{
+		background: gray;
+		width: 200px;
+		height: 100px;
+	}
+	div#box2{
+		background: gray;
+		width: 200px;
+		height: 100px;
+
+	}
+	div#box3{
+		background: gray;
+		width: 200px;
+		height: 100px;
+		overflow: hidden;
+
+	}
+	div#box4{
+		background: gray;
+		width: 200px;
+		height: 100px;
+		clear: both;
+		margin: 10px 10px;
+		position: absolute;
+		left: -400px;
+
+	}
+	#container1, #container2, #container3{
+		float: left;
+		margin: 10px 10px;
+	}
+	#container4{
+		clear: both;
+	}
+

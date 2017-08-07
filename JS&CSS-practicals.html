@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JS </title>
+	<link rel="stylesheet" href="JS&CSS-practicals.css">
+	<script src="JS&CSS-practicals.js"></script>
+</head>
+<body>
+	<!-- THIS BOX CHANGES COLORS BASED ON THE COLORS SET BY THE BUTTON -->
+<div id="container1">
+	<button onclick="changeBG('box1', '#F0F');">Magenta</button>
+	<button onclick="changeBG('box1', '#0C0');">Green</button>
+	<button onclick="changeBG('box1', 'gray');">Original</button>
+	<div id="box1">
+		Content in Box 1...
+	</div></div>
+<!-- THIS BOX FADES IN AND OUT ON BUTTON CLICK -->
+<div id='container2'>	
+	<button onclick="fadeOut('box2');">Fade Out</button>
+	<button onclick="fadeIn('box2');">Fade In</button>
+	<div id="box2">
+		This is the content of Box 2...
+	</div>
+	<!-- THIS BOX SLIDE UP AND SLIDE DOWN ON BUTTON CLICK -->
+</div>
+<div id="container3">
+	<button onclick="slideClose('box3')">Slide Close</button>
+	<button onclick="slideOpen('box3')">Slide Open</button>
+	<div id="box3">
+		Box 3 Animation...
+	</div>
+</div>
+<!-- THIS BOX IS HIDDEN AND DOES A SLIDE IN AND OUT ANIMATION WHEN BUTTONS ARE CLICKED -->
+<div id="container4">
+	<button onclick="slideIn('box4')">Slide In</button>
+	<button onclick="slideOut('box4')">Slide Out</button>
+	<div id="box4">
+	Content in Box 4...
+		
+	</div>
+	</div>	
+</body>
+</html>
