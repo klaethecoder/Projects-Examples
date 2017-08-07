@@ -1,0 +1,28 @@
+
+	body{
+		margin: 0;
+		padding: 0;
+	}
+	section{
+		height: 100vh;
+	}
+	.sec1{
+		background: url(iphone1.jpg);
+		background-attachment: fixed;
+	}
+	.sec2{
+	background: url(iphone2.jpg);
+	background-attachment: fixed;
+	}
+	.sec3{
+	background: url(iphone3.jpg);
+	background-attachment: fixed;
+	}
+	.sec4{
+	background: url(iphone4.jpg);
+	background-attachment: fixed;
+	}
+	.sec5{
+	background: url(iphone5.jpg);
+	background-attachment: fixed;
+	}
