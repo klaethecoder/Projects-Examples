@@ -1,28 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* background: #222 */
+}
 
-	body{
-		margin: 0;
-		padding: 0;
-	}
-	section{
-		height: 100vh;
-	}
-	.sec1{
-		background: url(iphone1.jpg);
-		background-attachment: fixed;
-	}
-	.sec2{
-	background: url(iphone2.jpg);
-	background-attachment: fixed;
-	}
-	.sec3{
-	background: url(iphone3.jpg);
-	background-attachment: fixed;
-	}
-	.sec4{
-	background: url(iphone4.jpg);
-	background-attachment: fixed;
-	}
-	.sec5{
-	background: url(iphone5.jpg);
-	background-attachment: fixed;
-	}
+section {
+    height: 100vh;
+    /* width: 100vw; */
+}
+
+.sec1 {
+    background: url(iphones/iphone1.jpg) fixed center;
+}
+
+.sec2 {
+    background: url(iphones/iphone2.jpg) fixed center;
+}
+
+.sec3 {
+    background: url(iphones/iphone3.jpg) fixed center;
+}
+
+.sec4 {
+    background: url(iphones/iphone4.jpg) fixed center;
+}
+
+.sec5 {
+    background: url(iphones/iphone5.jpg) fixed center;
+}
