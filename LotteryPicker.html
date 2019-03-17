@@ -1,38 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<title>Lottery Number Generator</title>
-	<link rel="stylesheet" href="lottery.css">
+    <meta charset="UTF-8">
+    <title>Lottery Number Generator</title>
+    <link rel="stylesheet" href="lottery.css">
 </head>
 
 <body>
-	<div class="container">
-		<div id="logo">
-			<div class="ball">P</div>
-			<div class="ball">O</div>
-			<div class="ball">W</div>
-			<div class="ball">E</div>
-			<div class="ball">R</div>
-			<div class="ball c">Ball</div>
-		</div>
-		<div class="state">CA Lottery</div>
-		<p class="statement">Powerball available now <br> $2 per play <br> jackpots start at $40 <br> million.</p>
-		<p class="center">quick pick</p>
-		<div class="numbers">
-			<div class="row">
-				<div id="num1" class="ball col-md-2"><span id="one"></span></div>
-				<div id="num2" class="ball col-md-2"><span id="two"></span></div>
-				<div id="num3" class="ball col-md-2"><span id="three"></span></div>
-				<div id="num4" class="ball col-md-2"><span id="four"></span></div>
-				<div id="num5" class="ball col-md-2"><span id="five"></span></div>
-				<div id="num6" class="ball col-md-2"><span id="six"></span></div>
-			</div>
-		</div>
+    <div class="container">
+
+        <!-- Powerball Logo Recreated with CSS -->
+        <div id="logo">
+            <div class="ball">P</div>
+            <div class="ball">O</div>
+            <div class="ball">W</div>
+            <div class="ball">E</div>
+            <div class="ball">R</div>
+            <div class="ball c">Ball</div>
+        </div>
+
+        <!-- CA State Lottery and Discription-->
+        <div class="state">CA Lottery</div>
+        <p class="statement">Powerball available now <br> $2 per play <br> jackpots start at $40 <br> million.</p>
+        <p class="center">quick pick</p>
+
+        <!-- Where the random numbers will be going -->
+        <div class="numbers">
+            <div class="row">
+                <div id="num1" class="ball col-md-2"><span id="one"></span></div>
+                <div id="num2" class="ball col-md-2"><span id="two"></span></div>
+                <div id="num3" class="ball col-md-2"><span id="three"></span></div>
+                <div id="num4" class="ball col-md-2"><span id="four"></span></div>
+                <div id="num5" class="ball col-md-2"><span id="five"></span></div>
+                <div id="num6" class="ball col-md-2"><span id="six"></span></div>
+            </div>
+        </div>
 
 
-	</div>
-	<button onclick="random()">Pick the Winners!</button>
-	<script src="lottery.js"></script>
+    </div>
+
+    <!-- Calling the Random Function that is written in Lottery.JS File -->
+    <button onclick="random()">Pick the Winners!</button>
+    <script src="lottery.js"></script>
 </body>
+
 </html>
